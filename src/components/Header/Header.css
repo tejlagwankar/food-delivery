@@ -1,11 +1,12 @@
 .header {
-    height: 34vw;
-    margin: 30px auto;
+    height: 43vw;
+    margin: 4vw auto;
+    /* margin-top: 7em; */
     background: url('/eastern_cuisine.jpg') no-repeat;
     background-size: cover;
     background-position: center -10vw;
     position: relative;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
 
 .header-contents {
@@ -16,7 +17,7 @@
     gap: 1.5vw;
     max-width: 40%;
     bottom: 10%;
-    left: 6vw;
+    left: 10vw;
     animation: fadeIn 1s;
 }
 
@@ -28,7 +29,6 @@
 
 .header-contents p{
     color: white;
-    font-size: 1vw;
 }
 
 .header-contents button{
